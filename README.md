@@ -2,7 +2,7 @@
 A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datasets (updating).
 
 # RGB UIAD
-## Datasets
+## Methods
 |  Title  |   Venue  |   Date   |   Code   |   Paradigm   |
 |:--------|:--------:|:--------:|:--------:|:--------:|
 | [**Uninformed Students: Student-Teacher Anomaly Detection With Discriminative Latent Embeddings**](https://openaccess.thecvf.com/content_CVPR_2020/html/Bergmann_Uninformed_Students_Student-Teacher_Anomaly_Detection_With_Discriminative_Latent_Embeddings_CVPR_2020_paper.html) <br> | CVPR | 2020 | [Code](https://github.com/denguir/student-teacher-anomaly-detection) | Teacher-student architecture |
@@ -26,9 +26,24 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | [**Focus the Discrepancy: Intra- and Inter-Correlation Learning for Image Anomaly Detection**](https://openaccess.thecvf.com/content/ICCV2023/html/Yao_Focus_the_Discrepancy_Intra-_and_Inter-Correlation_Learning_for_Image_Anomaly_ICCV_2023_paper.html) <br> | ICCV | 2023 | [Code](https://github.com/xcyao00/FOD) | Reconstruction |
 | [**Anomaly Detection with Conditioned Denoising Diffusion Models**](https://arxiv.org/abs/2305.15956) <br> | - | 2023 | [Code](https://github.com/arimousa/DDAD) | Reconstruction |
 | [**RealNet: A Feature Selection Network with Realistic Synthetic Anomaly for Anomaly Detection**](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_RealNet_A_Feature_Selection_Network_with_Realistic_Synthetic_Anomaly_for_CVPR_2024_paper.html) <br> | CVPR | 2024 | [Code](https://github.com/cnulab/RealNet) | Reconstruction |
-| [**title**](web) <br> | WACV | 2022 | [Code](code_web) | paradigm |
+| [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
 
-## Methods
+## Datasets
+|  Dataset  |   Year  |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
+|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| [**MVTec AD**](web) <br> | 2019 | Real | 3629 | 467 | 1258 | - | 5354 | 15 | 73 | RGB |
+| [**BTAD**](web) <br> | 2021 | Real | 1799 | 451 | 290 | - | 2540 | 3 | - | RGB |
+| [**MPDD**](web) <br> | 2021 | Real | 888 | 176 | 282 | - | 1346 | 6 | - | RGB |
+| [**MVTec LOCO-AD**](web) <br> | 2022 | Real | 1772 | 575 | 993 | 304 | 3644 | 5 | 89 | RGB |
+| [**VisA**](web) <br> | 2022 | Real | 9621 | 0 | 1200 | - | 10821 | 12 | - | RGB |
+| [**GoodsAD**](web) <br> | 2023 | Real | 3136 | 1328 | 1660 | - | 6124 | 6 | - | RGB |
+| [**CID**](web) <br> | 2024 | Real | 3900 | 33 | 360 | - | 4293 | 1 | 6 | RGB |
+| [**Real-IAD**](web) <br> | 2024 | Real | 72840 | 0 | 78210 | - | 151050 | 30 | 8 | RGB |
+| [**RAD**](web) <br> | 2024 | Real | 213 | 73 | 1224 | - | 1510 | 4 | - | RGB |
+| [**MIAD**](web) <br> | 2023 | Synthetic | 70000 | 17500 | 17500 | - | 105000 | 7 | 13 | RGB |
+| [**MAD-Sim**](web) <br> | 2023 | Synthetic | 4200 | 638 | 4951 | - | 9789 | 20 | 3 | RGB |
+| [**DTD-Synthetic**](web) <br> | 2024 | Synthetic | 1200 | 357 | 947 | - | 2504 | 12 | - | RGB |
+| [**dataset**](web) <br> | - | - | - | - | - | - | - | - | - | - |
 
 # 3D UIAD
 

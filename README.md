@@ -29,7 +29,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
 
 ## Datasets
-|  Dataset  |   Data   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
+|  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
 |:--------|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | [**MVTec AD**](https://openaccess.thecvf.com/content_CVPR_2019/html/Bergmann_MVTec_AD_--_A_Comprehensive_Real-World_Dataset_for_Unsupervised_Anomaly_CVPR_2019_paper.html) <br> | [Data](https://www.mvtec.com/company/research/datasets/mvtec-ad) | 2019 | Real | 3629 | 467 | 1258 | - | 5354 | 15 | 73 | RGB |
 | [**BTAD**](https://ieeexplore.ieee.org/document/9576231) <br> | [Data](https://avires.dimi.uniud.it/papers/btad/btad.zip) | 2021 | Real | 1799 | 451 | 290 | - | 2540 | 3 | - | RGB |
@@ -46,7 +46,23 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - |
 
 # 3D UIAD
+## Methods
+|  Name  |  Title  |   Publication  |   Year   |   Code   |   Paradigm   |
+|:--------|:--------|:--------:|:--------:|:--------:|:--------:|
+| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
 
+## Datasets
+|  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
+|:--------|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - |
 
 # Multimodal UIAD
+## Methods
+|  Name  |  Title  |   Publication  |   Year   |   Code   |   Paradigm   |
+|:--------|:--------|:--------:|:--------:|:--------:|:--------:|
+| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
 
+## Datasets
+|  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
+|:--------|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - |

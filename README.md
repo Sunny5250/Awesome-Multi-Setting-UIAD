@@ -3,7 +3,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 
 # RGB UIAD
 ## Methods
-|  Name  |  Title  |   Venue  |   Date   |   Code   |   Paradigm   |
+|  Name  |  Title  |   Publication  |   Year   |   Code   |   Paradigm   |
 |:--------|:--------|:--------:|:--------:|:--------:|:--------:|
 | Uninformed Students | [**Uninformed Students: Student-Teacher Anomaly Detection With Discriminative Latent Embeddings**](https://openaccess.thecvf.com/content_CVPR_2020/html/Bergmann_Uninformed_Students_Student-Teacher_Anomaly_Detection_With_Discriminative_Latent_Embeddings_CVPR_2020_paper.html) <br> | CVPR | 2020 | [Code](https://github.com/denguir/student-teacher-anomaly-detection) | Teacher-student architecture |
 | RD4AD | [**Anomaly Detection via Reverse Distillation From One-Class Embedding**](https://openaccess.thecvf.com/content/CVPR2022/html/Deng_Anomaly_Detection_via_Reverse_Distillation_From_One-Class_Embedding_CVPR_2022_paper.html) <br> | CVPR | 2022 | [Code](https://github.com/hq-deng/RD4AD) | Teacher-student architecture |
@@ -29,21 +29,21 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
 
 ## Datasets
-|  Dataset  |   Year  |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
-|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| [**MVTec AD**](web) <br> | 2019 | Real | 3629 | 467 | 1258 | - | 5354 | 15 | 73 | RGB |
-| [**BTAD**](web) <br> | 2021 | Real | 1799 | 451 | 290 | - | 2540 | 3 | - | RGB |
-| [**MPDD**](web) <br> | 2021 | Real | 888 | 176 | 282 | - | 1346 | 6 | - | RGB |
-| [**MVTec LOCO-AD**](web) <br> | 2022 | Real | 1772 | 575 | 993 | 304 | 3644 | 5 | 89 | RGB |
-| [**VisA**](web) <br> | 2022 | Real | 9621 | 0 | 1200 | - | 10821 | 12 | - | RGB |
-| [**GoodsAD**](web) <br> | 2023 | Real | 3136 | 1328 | 1660 | - | 6124 | 6 | - | RGB |
-| [**CID**](web) <br> | 2024 | Real | 3900 | 33 | 360 | - | 4293 | 1 | 6 | RGB |
-| [**Real-IAD**](web) <br> | 2024 | Real | 72840 | 0 | 78210 | - | 151050 | 30 | 8 | RGB |
-| [**RAD**](web) <br> | 2024 | Real | 213 | 73 | 1224 | - | 1510 | 4 | - | RGB |
-| [**MIAD**](web) <br> | 2023 | Synthetic | 70000 | 17500 | 17500 | - | 105000 | 7 | 13 | RGB |
-| [**MAD-Sim**](web) <br> | 2023 | Synthetic | 4200 | 638 | 4951 | - | 9789 | 20 | 3 | RGB |
-| [**DTD-Synthetic**](web) <br> | 2024 | Synthetic | 1200 | 357 | 947 | - | 2504 | 12 | - | RGB |
-| [**dataset**](web) <br> | - | - | - | - | - | - | - | - | - | - |
+|  Dataset  |   Data   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
+|:--------|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| [**MVTec AD**](https://openaccess.thecvf.com/content_CVPR_2019/html/Bergmann_MVTec_AD_--_A_Comprehensive_Real-World_Dataset_for_Unsupervised_Anomaly_CVPR_2019_paper.html) <br> | [Data](https://www.mvtec.com/company/research/datasets/mvtec-ad) | 2019 | Real | 3629 | 467 | 1258 | - | 5354 | 15 | 73 | RGB |
+| [**BTAD**](https://ieeexplore.ieee.org/document/9576231) <br> | [Data](https://avires.dimi.uniud.it/papers/btad/btad.zip) | 2021 | Real | 1799 | 451 | 290 | - | 2540 | 3 | - | RGB |
+| [**MPDD**](https://ieeexplore.ieee.org/document/9631567) <br> | [Data](https://vutbr-my.sharepoint.com/personal/xjezek16_vutbr_cz/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxjezek16%5Fvutbr%5Fcz%2FDocuments%2FMPDD&ga=1) | 2021 | Real | 888 | 176 | 282 | - | 1346 | 6 | - | RGB |
+| [**MVTec LOCO-AD**](https://link.springer.com/article/10.1007/s11263-022-01578-9) <br> | [Data](https://www.mvtec.com/company/research/datasets/mvtec-loco) | 2022 | Real | 1772 | 575 | 993 | 304 | 3644 | 5 | 89 | RGB |
+| [**VisA**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/2149_ECCV_2022_paper.php) <br> | [Data](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar) | 2022 | Real | 9621 | 0 | 1200 | - | 10821 | 12 | - | RGB |
+| [**GoodsAD**](https://ieeexplore.ieee.org/document/10387569) <br> | [Data](https://github.com/jianzhang96/GoodsAD) | 2023 | Real | 3136 | 1328 | 1660 | - | 6124 | 6 | - | RGB |
+| [**CID**](https://ieeexplore.ieee.org/document/10504848) <br> | [Data](https://github.com/Light-ZhangTao/Insulator-Defect-Detection) | 2024 | Real | 3900 | 33 | 360 | - | 4293 | 1 | 6 | RGB |
+| [**Real-IAD**](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Real-IAD_A_Real-World_Multi-View_Dataset_for_Benchmarking_Versatile_Industrial_Anomaly_CVPR_2024_paper.html) <br> | [Data](https://realiad4ad.github.io/Real-IAD/) | 2024 | Real | 72840 | 0 | 78210 | - | 151050 | 30 | 8 | RGB |
+| [**RAD**](https://arxiv.org/abs/2406.07176) <br> | [Data](https://github.com/hustCYQ/RAD-dataset) | 2024 | Real | 213 | 73 | 1224 | - | 1510 | 4 | - | RGB |
+| [**MIAD**](https://openaccess.thecvf.com/content/ICCV2023W/LIMIT/html/Bao_MIAD_A_Maintenance_Inspection_Dataset_for_Unsupervised_Anomaly_Detection_ICCVW_2023_paper.html) <br> | [Data](https://miad-2022.github.io/) | 2023 | Synthetic | 70000 | 17500 | 17500 | - | 105000 | 7 | 13 | RGB |
+| [**MAD-Sim**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8bc5aef775aacc1650a9790f1428bcea-Abstract-Datasets_and_Benchmarks.html) <br> | [Data](https://drive.google.com/file/d/1XlW5v_PCXMH49RSKICkskKjd2A5YDMQq/view?usp=sharing) | 2023 | Synthetic | 4200 | 638 | 4951 | - | 9789 | 20 | 3 | RGB |
+| [**DTD-Synthetic**](https://openaccess.thecvf.com/content/WACV2023/html/Aota_Zero-Shot_Versus_Many-Shot_Unsupervised_Texture_Anomaly_Detection_WACV_2023_paper.html) <br> | [Data](https://drive.google.com/drive/folders/10OyPzvI3H6llCZBxKxFlKWt1Pw1tkMK1) | 2024 | Synthetic | 1200 | 357 | 947 | - | 2504 | 12 | - | RGB |
+| [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - |
 
 # 3D UIAD
 

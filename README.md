@@ -5,7 +5,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 ## Methods
 |  Name  |  Title  |   Publication  |   Year   |   Code   |   Paradigm   |
 |:--------|:--------|:--------:|:--------:|:--------:|:--------:|
-| Uninformed Students | [**Uninformed Students: Student-Teacher Anomaly Detection With Discriminative Latent Embeddings**](https://openaccess.thecvf.com/content_CVPR_2020/html/Bergmann_Uninformed_Students_Student-Teacher_Anomaly_Detection_With_Discriminative_Latent_Embeddings_CVPR_2020_paper.html) <br> | CVPR | 2020 | [Code](https://github.com/denguir/student-teacher-anomaly-detection) | Teacher-student architecture |
+| US | [**Uninformed Students: Student-Teacher Anomaly Detection With Discriminative Latent Embeddings**](https://openaccess.thecvf.com/content_CVPR_2020/html/Bergmann_Uninformed_Students_Student-Teacher_Anomaly_Detection_With_Discriminative_Latent_Embeddings_CVPR_2020_paper.html) <br> | CVPR | 2020 | [Code](https://github.com/denguir/student-teacher-anomaly-detection) | Teacher-student architecture |
 | RD4AD | [**Anomaly Detection via Reverse Distillation From One-Class Embedding**](https://openaccess.thecvf.com/content/CVPR2022/html/Deng_Anomaly_Detection_via_Reverse_Distillation_From_One-Class_Embedding_CVPR_2022_paper.html) <br> | CVPR | 2022 | [Code](https://github.com/hq-deng/RD4AD) | Teacher-student architecture |
 | DeSTSeg | [**DeSTSeg: Segmentation Guided Denoising Student-Teacher for Anomaly Detection**](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_DeSTSeg_Segmentation_Guided_Denoising_Student-Teacher_for_Anomaly_Detection_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/apple/ml-destseg) | Teacher-student architecture |
 | EfficientAD | [**EfficientAD: Accurate Visual Anomaly Detection at Millisecond-Level Latencies**](https://openaccess.thecvf.com/content/WACV2024/html/Batzner_EfficientAD_Accurate_Visual_Anomaly_Detection_at_Millisecond-Level_Latencies_WACV_2024_paper.html) <br> | WACV | 2024 | [Unofficial Code](https://github.com/rximg/EfficientAD) | Teacher-student architecture |
@@ -49,10 +49,13 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 ## Methods
 |  Name  |  Title  |   Publication  |   Year   |   Code   |   Paradigm   |
 |:--------|:--------|:--------:|:--------:|:--------:|:--------:|
+| 3D-ST | [**Anomaly Detection in 3D Point Clouds Using Deep Geometric Descriptors**](https://openaccess.thecvf.com/content/WACV2023/html/Bergmann_Anomaly_Detection_in_3D_Point_Clouds_Using_Deep_Geometric_Descriptors_WACV_2023_paper.html) <br> | WACV | 2023 | - | Teacher-student architecture |
+| Group3AD | [**Towards High-resolution 3D Anomaly Detection via Group-Level Feature Contrastive Learning**](https://arxiv.org/abs/2408.04604) <br> | ACM MM | 2024 | [Code](https://github.com/M-3LAB/Group3AD) | Memory bank |
+| R3D-AD | [**R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection**](https://arxiv.org/abs/2407.10862) <br> | ECCV | 2024 | - | Reconstruction |
 | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
 
 ## Datasets
-|  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
+|  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type    |    Modal Type    |
 |:--------|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | [**Real3D-AD**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/611b896d447df43c898062358df4c114-Abstract-Datasets_and_Benchmarks.html) <br> | [data](https://github.com/M-3LAB/Real3D-AD) | 2023 | Real | 48 | 604 | 602 | - | 1254 | 12 | 3 |  Point cloud |
 | [**Anomaly-ShapeNet**](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024_paper.html) <br> | [data](https://github.com/Chopper-233/Anomaly-ShapeNet) | 2023 | Synthetic | 208 | 780 | 943 | - | 1931 | 50 | 7 | Point cloud |
@@ -62,6 +65,21 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 ## Methods
 |  Name  |  Title  |   Publication  |   Year   |   Code   |   Paradigm   |
 |:--------|:--------|:--------:|:--------:|:--------:|:--------:|
+| BTF | [**Back to the Feature: Classical 3D Features Are (Almost) All You Need for 3D Anomaly Detection**](https://openaccess.thecvf.com/content/CVPR2023W/VAND/html/Horwitz_Back_to_the_Feature_Classical_3D_Features_Are_Almost_All_CVPRW_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/eliahuhorwitz/3D-ADS) | - |
+| AST | [**Asymmetric Student-Teacher Networks for Industrial Anomaly Detection**](https://openaccess.thecvf.com/content/WACV2023/html/Rudolph_Asymmetric_Student-Teacher_Networks_for_Industrial_Anomaly_Detection_WACV_2023_paper.html) <br> | WACV | 2023 | [Code](https://github.com/marco-rudolph/AST) | Teacher-student architecture |
+| MMRD | [**Rethinking Reverse Distillation for Multi-Modal Anomaly Detection**](https://ojs.aaai.org/index.php/AAAI/article/view/28687) <br> | AAAI | 2024 | - | Teacher-student architecture |
+| M3DM | [**Multimodal Industrial Anomaly Detection via Hybrid Fusion**](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Multimodal_Industrial_Anomaly_Detection_via_Hybrid_Fusion_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/nomewang/M3DM) | Memory bank |
+| CPMF | [**Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection**](https://arxiv.org/abs/2303.13194) <br> | - | 2023 | [Code](https://github.com/caoyunkang/CPMF) | Memory bank |
+| Shape-Guided | [**Shape-Guided Dual-Memory Learning for 3D Anomaly Detection**](https://proceedings.mlr.press/v202/chu23b.html) <br> | ICML | 2023 | [Code](https://github.com/jayliu0313/Shape-Guided) | Memory bank |
+| LSFA | [**Self-supervised Feature Adaptation for 3D Industrial Anomaly Detection**](https://arxiv.org/abs/2401.03145) <br> | ECCV | 2024 | - | Memory bank |
+| ITNM | [**Incremental Template Neighborhood Matching for 3D anomaly detection**](https://dl.acm.org/doi/10.1016/j.neucom.2024.127483) <br> | Neurocomputing | 2024 | - | Memory bank |
+| CMDIAD | [**Incomplete Multimodal Industrial Anomaly Detection via Cross-Modal Distillation**](https://arxiv.org/abs/2405.13571) <br> | - | 2024 | [Code](https://github.com/evenrose/CMDIAD) | Memory bank |
+| M3DM-NR | [**M3DM-NR: RGB-3D Noisy-Resistant Industrial Anomaly Detection via Multimodal Denoising**](https://arxiv.org/abs/2406.02263) <br> | - | 2024 | - | Memory bank |
+| EasyNet | [**EasyNet: An Easy Network for 3D Industrial Anomaly Detection**](https://dl.acm.org/doi/10.1145/3581783.3611876) <br> | ACM MM | 2023 | [Code](https://github.com/TaoTao9/EasyNet) | Reconstruction |
+| 3DSR | [**Cheating Depth: Enhancing 3D Surface Anomaly Detection via Depth Simulation**](https://openaccess.thecvf.com/content/WACV2024/html/Zavrtanik_Cheating_Depth_Enhancing_3D_Surface_Anomaly_Detection_via_Depth_Simulation_WACV_2024_paper.html) <br> | WACV | 2024 | [Code](https://github.com/VitjanZ/3DSR) | Reconstruction |
+| DBRN | [**Dual-Branch Reconstruction Network for Industrial Anomaly Detection with RGB-D Data**](https://arxiv.org/abs/2311.06797) <br> | - | 2023 | - | Reconstruction |
+| CFM | [**Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping**](https://openaccess.thecvf.com/content/CVPR2024/html/Costanzino_Multimodal_Industrial_Anomaly_Detection_by_Crossmodal_Feature_Mapping_CVPR_2024_paper.html) <br> | CVPR | 2024 | [Code](https://github.com/CVLAB-Unibo/crossmodal-feature-mapping) | Reconstruction |
+| 3DRÆM | [**Keep DRÆMing: Discriminative 3D anomaly detection through anomaly simulation**](https://www.sciencedirect.com/science/article/pii/S0167865524000862) <br> | PRL | 2024 | - | Reconstruction |
 | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
 
 ## Datasets

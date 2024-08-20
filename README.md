@@ -30,7 +30,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 
 ## Datasets
 |  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
-|:--------|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | [**MVTec AD**](https://openaccess.thecvf.com/content_CVPR_2019/html/Bergmann_MVTec_AD_--_A_Comprehensive_Real-World_Dataset_for_Unsupervised_Anomaly_CVPR_2019_paper.html) <br> | [Data](https://www.mvtec.com/company/research/datasets/mvtec-ad) | 2019 | Real | 3629 | 467 | 1258 | - | 5354 | 15 | 73 | RGB |
 | [**BTAD**](https://ieeexplore.ieee.org/document/9576231) <br> | [Data](https://avires.dimi.uniud.it/papers/btad/btad.zip) | 2021 | Real | 1799 | 451 | 290 | - | 2540 | 3 | - | RGB |
 | [**MPDD**](https://ieeexplore.ieee.org/document/9631567) <br> | [Data](https://vutbr-my.sharepoint.com/personal/xjezek16_vutbr_cz/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxjezek16%5Fvutbr%5Fcz%2FDocuments%2FMPDD&ga=1) | 2021 | Real | 888 | 176 | 282 | - | 1346 | 6 | - | RGB |
@@ -56,7 +56,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 
 ## Datasets
 |  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type    |    Modal Type    |
-|:--------|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | [**Real3D-AD**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/611b896d447df43c898062358df4c114-Abstract-Datasets_and_Benchmarks.html) <br> | [data](https://github.com/M-3LAB/Real3D-AD) | 2023 | Real | 48 | 604 | 602 | - | 1254 | 12 | 3 |  Point cloud |
 | [**Anomaly-ShapeNet**](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024_paper.html) <br> | [data](https://github.com/Chopper-233/Anomaly-ShapeNet) | 2023 | Synthetic | 208 | 780 | 943 | - | 1931 | 50 | 7 | Point cloud |
 | [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - |
@@ -84,7 +84,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 
 ## Datasets
 |  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
-|:--------|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | [**MVTec 3D-AD**](https://www.scitepress.org/PublicationsDetail.aspx?ID=x2WTZgpY0KM=&t=1) <br> | [data](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad) | 2021 | Real | 2656 | 294 | 948 | 294 | 4147 | 10 | 41 | RGB & Point cloud |
 | [**PD-REAL**](https://arxiv.org/abs/2311.04095) <br> | [data](https://drive.google.com/file/d/1EBapy9BGnwmZJ9Rxh0uTF-Xii9FU0YCG/view?usp=sharing) | 2023 | Real | 2399 | 300 | 530 | 300 | 3529 | 15 | 6 | RGB & Point cloud |
 | [**Eyecandies**](https://openaccess.thecvf.com/content/ACCV2022/html/Bonfiglioli_The_Eyecandies_Dataset_for_Unsupervised_Multimodal_Anomaly_Detection_and_Localization_ACCV_2022_paper.html) <br> | [data](https://eyecan-ai.github.io/eyecandies/download) | 2022 | Synthetic | 10000 | 2250 | 2250 | 1000 | 15500 | 10 | - | RGB & Depth |

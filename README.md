@@ -2,9 +2,9 @@
 A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datasets (updating).
 
 # Content
-- [RGB UIAD](#RGBUIAD)
-- [3D UIAD](#3DUIAD)
-- [Multimodal UIAD](#MultimodalUIAD)
+- [RGB UIAD](#rgb-uiad)
+- [3D UIAD](#3d-uiad)
+- [Multimodal UIAD](#multimodal-uiad)
 
 # RGB UIAD
 ## Methods

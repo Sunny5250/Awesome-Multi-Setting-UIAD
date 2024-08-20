@@ -1,6 +1,11 @@
 # Awesome-Multi-Setting-UIAD [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datasets (updating).
 
+# Content
+- [RGB UIAD](#RGBUIAD)
+- [3D UIAD](#3DUIAD)
+- [Multimodal UIAD](#MultimodalUIAD)
+
 # RGB UIAD
 ## Methods
 |  Name  |  Title  |   Publication  |   Year   |   Code   |   Paradigm   |

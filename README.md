@@ -47,7 +47,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | FOD | [**Focus the Discrepancy: Intra- and Inter-Correlation Learning for Image Anomaly Detection**](https://openaccess.thecvf.com/content/ICCV2023/html/Yao_Focus_the_Discrepancy_Intra-_and_Inter-Correlation_Learning_for_Image_Anomaly_ICCV_2023_paper.html) <br> | ICCV | 2023 | [Code](https://github.com/xcyao00/FOD) | Reconstruction |
 | DDAD | [**Anomaly Detection with Conditioned Denoising Diffusion Models**](https://arxiv.org/abs/2305.15956) <br> | - | 2023 | [Code](https://github.com/arimousa/DDAD) | Reconstruction |
 | RealNet | [**RealNet: A Feature Selection Network with Realistic Synthetic Anomaly for Anomaly Detection**](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_RealNet_A_Feature_Selection_Network_with_Realistic_Synthetic_Anomaly_for_CVPR_2024_paper.html) <br> | CVPR | 2024 | [Code](https://github.com/cnulab/RealNet) | Reconstruction |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+<!-- | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm | -->
 
 ## Datasets
 |  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
@@ -64,7 +64,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | [**MIAD**](https://openaccess.thecvf.com/content/ICCV2023W/LIMIT/html/Bao_MIAD_A_Maintenance_Inspection_Dataset_for_Unsupervised_Anomaly_Detection_ICCVW_2023_paper.html) <br> | [Data](https://miad-2022.github.io/) | 2023 | Synthetic | 70000 | 17500 | 17500 | - | 105000 | 7 | 13 | RGB |
 | [**MAD-Sim**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8bc5aef775aacc1650a9790f1428bcea-Abstract-Datasets_and_Benchmarks.html) <br> | [Data](https://drive.google.com/file/d/1XlW5v_PCXMH49RSKICkskKjd2A5YDMQq/view?usp=sharing) | 2023 | Synthetic | 4200 | 638 | 4951 | - | 9789 | 20 | 3 | RGB |
 | [**DTD-Synthetic**](https://openaccess.thecvf.com/content/WACV2023/html/Aota_Zero-Shot_Versus_Many-Shot_Unsupervised_Texture_Anomaly_Detection_WACV_2023_paper.html) <br> | [Data](https://drive.google.com/drive/folders/10OyPzvI3H6llCZBxKxFlKWt1Pw1tkMK1) | 2024 | Synthetic | 1200 | 357 | 947 | - | 2504 | 12 | - | RGB |
-| [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - |
+<!-- | [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - | -->
 
 # 3D UIAD
 ## Methods
@@ -73,14 +73,14 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | 3D-ST | [**Anomaly Detection in 3D Point Clouds Using Deep Geometric Descriptors**](https://openaccess.thecvf.com/content/WACV2023/html/Bergmann_Anomaly_Detection_in_3D_Point_Clouds_Using_Deep_Geometric_Descriptors_WACV_2023_paper.html) <br> | WACV | 2023 | - | Teacher-student architecture |
 | Group3AD | [**Towards High-resolution 3D Anomaly Detection via Group-Level Feature Contrastive Learning**](https://arxiv.org/abs/2408.04604) <br> | ACM MM | 2024 | [Code](https://github.com/M-3LAB/Group3AD) | Memory bank |
 | R3D-AD | [**R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection**](https://arxiv.org/abs/2407.10862) <br> | ECCV | 2024 | - | Reconstruction |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+<!-- | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm | -->
 
 ## Datasets
 |  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type    |    Modal Type    |
 |:--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | [**Real3D-AD**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/611b896d447df43c898062358df4c114-Abstract-Datasets_and_Benchmarks.html) <br> | [data](https://github.com/M-3LAB/Real3D-AD) | 2023 | Real | 48 | 604 | 602 | - | 1254 | 12 | 3 |  Point cloud |
 | [**Anomaly-ShapeNet**](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024_paper.html) <br> | [data](https://github.com/Chopper-233/Anomaly-ShapeNet) | 2023 | Synthetic | 208 | 780 | 943 | - | 1931 | 50 | 7 | Point cloud |
-| [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - |
+<!-- | [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - | -->
 
 # Multimodal UIAD
 ## Methods
@@ -101,7 +101,7 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | 3DSR | [**Cheating Depth: Enhancing 3D Surface Anomaly Detection via Depth Simulation**](https://openaccess.thecvf.com/content/WACV2024/html/Zavrtanik_Cheating_Depth_Enhancing_3D_Surface_Anomaly_Detection_via_Depth_Simulation_WACV_2024_paper.html) <br> | WACV | 2024 | [Code](https://github.com/VitjanZ/3DSR) | Reconstruction |
 | CFM | [**Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping**](https://openaccess.thecvf.com/content/CVPR2024/html/Costanzino_Multimodal_Industrial_Anomaly_Detection_by_Crossmodal_Feature_Mapping_CVPR_2024_paper.html) <br> | CVPR | 2024 | [Code](https://github.com/CVLAB-Unibo/crossmodal-feature-mapping) | Reconstruction |
 | 3DRÆM | [**Keep DRÆMing: Discriminative 3D anomaly detection through anomaly simulation**](https://www.sciencedirect.com/science/article/pii/S0167865524000862) <br> | PRL | 2024 | - | Reconstruction |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+<!-- | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm | -->
 
 ## Datasets
 |  Dataset  |   Resource   |   Year   |   Type   |   Train   |    Test (good)   |   Test (anomaly)   |   Val   |   Total   |   Class   |    Anomaly Type   |    Modal Type   |
@@ -109,4 +109,4 @@ A taxonomy of unsupervised industrial anomaly detection (UIAD) methods and datas
 | [**MVTec 3D-AD**](https://www.scitepress.org/PublicationsDetail.aspx?ID=x2WTZgpY0KM=&t=1) <br> | [data](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad) | 2021 | Real | 2656 | 294 | 948 | 294 | 4147 | 10 | 41 | RGB & Point cloud |
 | [**PD-REAL**](https://arxiv.org/abs/2311.04095) <br> | [data](https://drive.google.com/file/d/1EBapy9BGnwmZJ9Rxh0uTF-Xii9FU0YCG/view?usp=sharing) | 2023 | Real | 2399 | 300 | 530 | 300 | 3529 | 15 | 6 | RGB & Point cloud |
 | [**Eyecandies**](https://openaccess.thecvf.com/content/ACCV2022/html/Bonfiglioli_The_Eyecandies_Dataset_for_Unsupervised_Multimodal_Anomaly_Detection_and_Localization_ACCV_2022_paper.html) <br> | [data](https://eyecan-ai.github.io/eyecandies/download) | 2022 | Synthetic | 10000 | 2250 | 2250 | 1000 | 15500 | 10 | - | RGB & Depth |
-| [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - |
+<!-- | [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - | -->

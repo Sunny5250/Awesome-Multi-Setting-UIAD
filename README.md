@@ -83,7 +83,6 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 | InReaCh | [**Inter-Realization Channels: Unsupervised Anomaly Detection Beyond One-Class Classification**](https://openaccess.thecvf.com/content/ICCV2023/html/McIntosh_Inter-Realization_Channels_Unsupervised_Anomaly_Detection_Beyond_One-Class_Classification_ICCV_2023_paper.html) <br> | ICCV | 2023 | [Code](https://github.com/DeclanMcIntosh/InReaCh) | Memory bank |
 | ReconFA | [**A Reconstruction-Based Feature Adaptation for Anomaly Detection with Self-Supervised Multi-Scale Aggregation**](https://ieeexplore.ieee.org/document/10446766) <br> | ICASSP | 2024 | - | Memory bank |
 | ReConPatch | [**ReConPatch: Contrastive Patch Representation Learning for Industrial Anomaly Detection**](https://openaccess.thecvf.com/content/WACV2024/html/Hyun_ReConPatch_Contrastive_Patch_Representation_Learning_for_Industrial_Anomaly_Detection_WACV_2024_paper.html) <br> | WACV | 2024 | [Unofficial Code](https://github.com/travishsu/ReConPatch-TF) | Memory bank |
-
 | AE-SSIM | [**Improving Unsupervised Defect Segmentation by Applying Structural Similarity to Autoencoders**](https://arxiv.org/abs/1807.02011) <br> | - | 2018 | [Unofficial Code](https://github.com/cheapthrillandwine/Improving_Unsupervised_Defect_Segmentation) | Autoencoder-based Reconstruction |
 | DFR | [**Unsupervised anomaly segmentation via deep feature reconstruction**](https://www.sciencedirect.com/science/article/abs/pii/S0925231220317951) <br> | Neurocomputing | 2020 | [Code](https://github.com/YoungGod/DFR) | Autoencoder-based Reconstruction |
 | DAAD | [**Divide-and-Assemble: Learning Block-Wise Memory for Unsupervised Anomaly Detection**](https://openaccess.thecvf.com/content/ICCV2021/html/Hou_Divide-and-Assemble_Learning_Block-Wise_Memory_for_Unsupervised_Anomaly_Detection_ICCV_2021_paper.html) <br> | ICCV | 2021 | - | Autoencoder-based Reconstruction |
@@ -129,7 +128,9 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 |  Name  |  Title  |   Publication  |   Year   |   Code   |   Paradigm   |
 |:--------|:--------|:--------:|:--------:|:--------:|:--------:|
 | 3D-ST | [**Anomaly Detection in 3D Point Clouds Using Deep Geometric Descriptors**](https://openaccess.thecvf.com/content/WACV2023/html/Bergmann_Anomaly_Detection_in_3D_Point_Clouds_Using_Deep_Geometric_Descriptors_WACV_2023_paper.html) <br> | WACV | 2023 | - | Teacher-student architecture |
+| Reg3D-AD | [**Real3D-AD: A Dataset of Point Cloud Anomaly Detection**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/611b896d447df43c898062358df4c114-Abstract-Datasets_and_Benchmarks.html) <br> | NeurIPS | 2024 | [Code](https://github.com/M-3LAB/Real3D-AD) | Memory bank |
 | Group3AD | [**Towards High-resolution 3D Anomaly Detection via Group-Level Feature Contrastive Learning**](https://arxiv.org/abs/2408.04604) <br> | ACM MM | 2024 | [Code](https://github.com/M-3LAB/Group3AD) | Memory bank |
+| PointCore | [**PointCore: Efficient Unsupervised Point Cloud Anomaly Detector Using Local-Global Features**](https://arxiv.org/abs/2403.01804) <br> | - | 2024 | - | Memory bank |
 | R3D-AD | [**R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection**](https://link.springer.com/chapter/10.1007/978-3-031-72764-1_6) <br> | ECCV | 2024 | - | Reconstruction |
 <!-- | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm | -->
 

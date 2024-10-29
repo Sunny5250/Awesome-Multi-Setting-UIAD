@@ -3,7 +3,7 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 
 # Contents
 - [Overview](#overview)
-  - [Survey](#survey)
+  - [Roadmap](#roadmap)
   - [Methods](#methods)
 - [RGB UIAD](#rgb-uiad)
   - [Datasets](#datasets)
@@ -16,7 +16,9 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
   - [Methods](#methods-3)
 
 # Overview
-## Survey
+## Roadmap
+-  
+
 ![overview.png](overview.png)
 
 ## Methods
@@ -33,7 +35,7 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 | [**MVTec LOCO-AD**](https://link.springer.com/article/10.1007/s11263-022-01578-9) <br> | [Data](https://www.mvtec.com/company/research/datasets/mvtec-loco) | 2022 | Real | 1772 | 575 | 993 | 304 | 3644 | 5 | 89 | RGB |
 | [**VisA**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/2149_ECCV_2022_paper.php) <br> | [Data](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar) | 2022 | Real | 9621 | 0 | 1200 | - | 10821 | 12 | - | RGB |
 | [**GoodsAD**](https://ieeexplore.ieee.org/document/10387569) <br> | [Data](https://github.com/jianzhang96/GoodsAD) | 2023 | Real | 3136 | 1328 | 1660 | - | 6124 | 6 | - | RGB |
-| [**MSC-AD**](https://ieeexplore.ieee.org/abstract/document/10376373) <br> | [Data] | 2023 | Real | 6480 | 2160 | 1080 | - | 9720 | 12 | 5 | RGB |
+| [**MSC-AD**](https://ieeexplore.ieee.org/abstract/document/10376373) <br> | - | 2023 | Real | 6480 | 2160 | 1080 | - | 9720 | 12 | 5 | RGB |
 | [**CID**](https://ieeexplore.ieee.org/document/10504848) <br> | [Data](https://github.com/Light-ZhangTao/Insulator-Defect-Detection) | 2024 | Real | 3900 | 33 | 360 | - | 4293 | 1 | 6 | RGB |
 | [**Real-IAD**](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Real-IAD_A_Real-World_Multi-View_Dataset_for_Benchmarking_Versatile_Industrial_Anomaly_CVPR_2024_paper.html) <br> | [Data](https://realiad4ad.github.io/Real-IAD/) | 2024 | Real | 72840 | 0 | 78210 | - | 151050 | 30 | 8 | RGB |
 | [**RAD**](https://arxiv.org/abs/2406.07176) <br> | [Data](https://github.com/hustCYQ/RAD-dataset) | 2024 | Real | 213 | 73 | 1224 | - | 1510 | 4 | - | RGB |
@@ -47,39 +49,39 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 |:--------|:--------|:--------:|:--------:|:--------:|:--------:|
 | US | [**Uninformed Students: Student-Teacher Anomaly Detection With Discriminative Latent Embeddings**](https://openaccess.thecvf.com/content_CVPR_2020/html/Bergmann_Uninformed_Students_Student-Teacher_Anomaly_Detection_With_Discriminative_Latent_Embeddings_CVPR_2020_paper.html) <br> | CVPR | 2020 | [Code](https://github.com/denguir/student-teacher-anomaly-detection) | Teacher-student architecture |
 | MKD | [**Multiresolution knowledge distillation for anomaly detection**](https://openaccess.thecvf.com/content/CVPR2021/html/Salehi_Multiresolution_Knowledge_Distillation_for_Anomaly_Detection_CVPR_2021_paper.html) <br> | CVPR | 2021 | [Code](https://github.com/rohban-lab/Knowledge_Distillation_AD) | Teacher-student architecture |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+| GP | [**Glancing at the patch: Anomaly localization with global and local feature comparison**](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Glancing_at_the_Patch_Anomaly_Localization_With_Global_and_Local_CVPR_2021_paper.html) <br> | CVPR | 2021 | - | Teacher-student architecture |
 | RD4AD | [**Anomaly Detection via Reverse Distillation From One-Class Embedding**](https://openaccess.thecvf.com/content/CVPR2022/html/Deng_Anomaly_Detection_via_Reverse_Distillation_From_One-Class_Embedding_CVPR_2022_paper.html) <br> | CVPR | 2022 | [Code](https://github.com/hq-deng/RD4AD) | Teacher-student architecture |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+| PFM | [**Unsupervised Image Anomaly Detection and Segmentation Based on Pretrained Feature Mapping**](https://ieeexplore.ieee.org/abstract/document/9795121) <br> | TII | 2023 | [Code](https://github.com/smiler96/PFM-and-PEFM-for-Image-Anomaly-Detection-and-Segmentation) | Teacher-student architecture |
+| MemKD | [**Remembering Normality: Memory-guided Knowledge Distillation for Unsupervised Anomaly Detection**](https://openaccess.thecvf.com/content/ICCV2023/html/Gu_Remembering_Normality_Memory-guided_Knowledge_Distillation_for_Unsupervised_Anomaly_Detection_ICCV_2023_paper.html) <br> | ICCV | 2023 | [Code](https://github.com/SimonThomine/RememberingNormality) | Teacher-student architecture |
 | DeSTSeg | [**DeSTSeg: Segmentation Guided Denoising Student-Teacher for Anomaly Detection**](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_DeSTSeg_Segmentation_Guided_Denoising_Student-Teacher_for_Anomaly_Detection_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/apple/ml-destseg) | Teacher-student architecture |
 | EfficientAD | [**EfficientAD: Accurate Visual Anomaly Detection at Millisecond-Level Latencies**](https://openaccess.thecvf.com/content/WACV2024/html/Batzner_EfficientAD_Accurate_Visual_Anomaly_Detection_at_Millisecond-Level_Latencies_WACV_2024_paper.html) <br> | WACV | 2024 | [Unofficial Code](https://github.com/rximg/EfficientAD) | Teacher-student architecture |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| CutPaste | [**CutPaste: Self-Supervised Learning for Anomaly Detection and Localization**](https://openaccess.thecvf.com/content/CVPR2021/html/Li_CutPaste_Self-Supervised_Learning_for_Anomaly_Detection_and_Localization_CVPR_2021_paper.html) <br> | CVPR | 2021 | [Unofficial Code](https://github.com/LilitYolyan/CutPaste) |  One-class classification |
-| SimpleNet | [**SimpleNet: A Simple Network for Image Anomaly Detection and Localization**](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_SimpleNet_A_Simple_Network_for_Image_Anomaly_Detection_and_Localization_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/DonaldRR/SimpleNet) |  One-class classification |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+| EMMFRKD | [**Enhanced multi-scale features mutual mapping fusion based on reverse knowledge distillation for industrial anomaly detection and localization**](https://ieeexplore.ieee.org/document/10382612) <br> | TBD | 2024 | - | Teacher-student architecture |
+| AEKD | [**AEKD: Unsupervised auto-encoder knowledge distillation for industrial anomaly detection**](https://www.sciencedirect.com/science/article/abs/pii/S0278612524000244) <br> | JMS | 2024 | - | Teacher-student architecture |
+| FCACDL | [**Feature-Constrained and Attention-Conditioned Distillation Learning for Visual Anomaly Detection**](https://ieeexplore.ieee.org/document/10448432) <br> | ICASSP | 2024 | - | Teacher-student architecture |
+| DMDD | [**Dual-Modeling Decouple Distillation for Unsupervised Anomaly Detection**](https://dl.acm.org/doi/10.1145/3664647.3681669) <br> | ACM MM | 2024 | - | Teacher-student architecture |
+| CutPaste | [**CutPaste: Self-Supervised Learning for Anomaly Detection and Localization**](https://openaccess.thecvf.com/content/CVPR2021/html/Li_CutPaste_Self-Supervised_Learning_for_Anomaly_Detection_and_Localization_CVPR_2021_paper.html) <br> | CVPR | 2021 | [Unofficial Code](https://github.com/LilitYolyan/CutPaste) | One-class classification |
+| SimpleNet | [**SimpleNet: A Simple Network for Image Anomaly Detection and Localization**](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_SimpleNet_A_Simple_Network_for_Image_Anomaly_Detection_and_Localization_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/DonaldRR/SimpleNet) | One-class classification |
+| ADShift | [**Anomaly Detection Under Distribution Shift**](https://openaccess.thecvf.com/content/ICCV2023/html/Cao_Anomaly_Detection_Under_Distribution_Shift_ICCV_2023_paper.html) <br> | ICCV | 2023 | [Code](https://github.com/mala-lab/ADShift) | One-class classification |
+| DS2 | [**Learning Transferable Representations for Image Anomaly Localization Using Dense Pretraining**](https://openaccess.thecvf.com/content/WACV2024/html/He_Learning_Transferable_Representations_for_Image_Anomaly_Localization_Using_Dense_Pretraining_WACV_2024_paper.html) <br> | WACV | 2024 | - | One-class classification |
+| GeneralAD | [**GeneralAD: Anomaly Detection Across Domains by Attending to Distorted Features**](https://arxiv.org/abs/2407.12427) <br> | ECCV | 2024 | [Code](https://github.com/LucStrater/GeneralAD) | One-class classification |
+| GLASS | [**A Unified Anomaly Synthesis Strategy with Gradient Ascent for Industrial Anomaly Detection and Localization**](https://arxiv.org/abs/2407.09359) <br> | ECCV | 2024 | [Code](https://github.com/cqylunlun/GLASS) | One-class classification |
 | FastFlow | [**FastFlow: Unsupervised Anomaly Detection and Localization via 2D Normalizing Flows**](https://arxiv.org/abs/2111.07677) <br> | - | 2021 | [Unofficial Code](https://github.com/gathierry/FastFlow) | Distribution map |
 | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| CFLOW-AD | [**CFLOW-AD: Real-Time Unsupervised Anomaly Detection With Localization via Conditional Normalizing Flows**](https://openaccess.thecvf.com/content/WACV2022/html/Gudovskiy_CFLOW-AD_Real-Time_Unsupervised_Anomaly_Detection_With_Localization_via_Conditional_Normalizing_WACV_2022_paper.html) <br> | WACV | 2022 | [Code](https://github.com/gudovskiy/cflow-ad) |  Distribution map |
+| CFLOW-AD | [**CFLOW-AD: Real-Time Unsupervised Anomaly Detection With Localization via Conditional Normalizing Flows**](https://openaccess.thecvf.com/content/WACV2022/html/Gudovskiy_CFLOW-AD_Real-Time_Unsupervised_Anomaly_Detection_With_Localization_via_Conditional_Normalizing_WACV_2022_paper.html) <br> | WACV | 2022 | [Code](https://github.com/gudovskiy/cflow-ad) | Distribution map |
 | CS-Flow | [**Fully Convolutional Cross-Scale-Flows for Image-Based Defect Detection**](https://openaccess.thecvf.com/content/WACV2022/html/Rudolph_Fully_Convolutional_Cross-Scale-Flows_for_Image-Based_Defect_Detection_WACV_2022_paper.html) <br> | WACV | 2022 | [Code](https://github.com/marco-rudolph/cs-flow) | Distribution map | |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+| DifferNet | [**Same Same but DifferNet: Semi-Supervised Defect Detection With Normalizing Flows**](https://openaccess.thecvf.com/content/WACV2021/html/Rudolph_Same_Same_but_DifferNet_Semi-Supervised_Defect_Detection_With_Normalizing_Flows_WACV_2021_paper.html) <br> | WACV | 2021 | [Code](https://github.com/marco-rudolph/differnet) | Distribution map |
 | PyramidFlow | [**PyramidFlow: High-Resolution Defect Contrastive Localization Using Pyramid Normalizing Flow**](https://openaccess.thecvf.com/content/CVPR2023/html/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/gasharper/PyramidFlow) | Distribution map |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+| SLAD | [**Fascinating Supervisory Signals and Where to Find Them: Deep Anomaly Detection with Scale Learning**](https://openreview.net/forum?id=V6PNBRWRil) <br> | ICML | 2023 | [Code](https://github.com/xuhongzuo/scale-learning) | Distribution map |
 | MSFlow | [**MSFlow: Multiscale Flow-Based Framework for Unsupervised Anomaly Detection**](https://ieeexplore.ieee.org/document/10384766) <br> | TNNLS | 2024 | [Code](https://github.com/cool-xuan/msflow) | Distribution map |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+| AttentDifferNet | [**Attention Modules Improve Image-Level Anomaly Detection for Industrial Inspection: A DifferNet Case Study**](https://openaccess.thecvf.com/content/WACV2024/html/Vieira_e_Silva_Attention_Modules_Improve_Image-Level_Anomaly_Detection_for_Industrial_Inspection_A_WACV_2024_paper.html) <br> | WACV | 2024 | [Code](https://github.com/andreluizbvs/AttentDifferNet) | Distribution map |
+| PaDiM | [**PaDiM: A Patch Distribution Modeling Framework for Anomaly Detection and Localization**](https://link.springer.com/chapter/10.1007/978-3-030-68799-1_35) <br> | ICPR | 2021 | [Unofficial Code](https://github.com/xiahaifeng1995/PaDiM-Anomaly-Detection-Localization-master) | Memory bank |
 | PatchCore | [**Towards Total Recall in Industrial Anomaly Detection**](https://openaccess.thecvf.com/content/CVPR2022/html/Roth_Towards_Total_Recall_in_Industrial_Anomaly_Detection_CVPR_2022_paper.html) <br> | CVPR | 2022 | [Code](https://github.com/amazon-science/patchcore-inspection) | Memory bank |
 | CFA | [**CFA: Coupled-Hypersphere-Based Feature Adaptation for Target-Oriented Anomaly Localization**](https://ieeexplore.ieee.org/abstract/document/9839549) <br> | IEEE Access | 2022 | [Code](https://github.com/sungwool/CFA_for_anomaly_localization) | Memory bank |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+| DMAD | [**Diversity-Measurable Anomaly Detection**](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_Diversity-Measurable_Anomaly_Detection_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/FlappyPeggy/DMAD) | Memory bank |
 | PNI | [**PNI : Industrial Anomaly Detection using Position and Neighborhood Information**](https://openaccess.thecvf.com/content/ICCV2023/html/Bae_PNI__Industrial_Anomaly_Detection_using_Position_and_Neighborhood_Information_ICCV_2023_paper.html) <br> | ICCV | 2023 | [Code](https://github.com/wogur110/PNI_anomaly_detection) | Memory bank |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
-| name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm |
+| GraphCore | [**Pushing the Limits of Fewshot Anomaly Detection in Industry Vision: Graphcore**](https://openreview.net/forum?id=xzmqxHdZAwO) <br> | ICLR | 2023 | - | Memory bank |
+| InReaCh | [**Inter-Realization Channels: Unsupervised Anomaly Detection Beyond One-Class Classification**](https://openaccess.thecvf.com/content/ICCV2023/html/McIntosh_Inter-Realization_Channels_Unsupervised_Anomaly_Detection_Beyond_One-Class_Classification_ICCV_2023_paper.html) <br> | ICCV | 2023 | [Code](https://github.com/DeclanMcIntosh/InReaCh) | Memory bank |
+| ReconFA | [**A Reconstruction-Based Feature Adaptation for Anomaly Detection with Self-Supervised Multi-Scale Aggregation**](https://ieeexplore.ieee.org/document/10446766) <br> | ICASSP | 2024 | - | Memory bank |
 | ReConPatch | [**ReConPatch: Contrastive Patch Representation Learning for Industrial Anomaly Detection**](https://openaccess.thecvf.com/content/WACV2024/html/Hyun_ReConPatch_Contrastive_Patch_Representation_Learning_for_Industrial_Anomaly_Detection_WACV_2024_paper.html) <br> | WACV | 2024 | [Unofficial Code](https://github.com/travishsu/ReConPatch-TF) | Memory bank |
 | DRÆM | [**DRAEM - A Discriminatively Trained Reconstruction Embedding for Surface Anomaly Detection**](https://openaccess.thecvf.com/content/ICCV2021/html/Zavrtanik_DRAEM_-_A_Discriminatively_Trained_Reconstruction_Embedding_for_Surface_Anomaly_ICCV_2021_paper.html) <br> | ICCV | 2021 | [Code](https://github.com/VitjanZ/DRAEM) | Reconstruction |
 | DSR | [**DSR – A Dual Subspace Re-Projection Network for Surface Anomaly Detection**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/7955_ECCV_2022_paper.php) <br> | ECCV | 2022 | [Code](https://github.com/VitjanZ/DSR_anomaly_detection) | Reconstruction |

@@ -17,8 +17,6 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 
 # Overview
 ## Roadmap
--  
-
 ![roadmap.png](roadmap.png)
 
 ## Methods

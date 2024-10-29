@@ -4,7 +4,7 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 # Contents
 - [Overview](#overview)
   - [Roadmap](#roadmap)
-  - [Methods](#methods)
+  - [Paradigms](#paradigms)
 - [RGB UIAD](#rgb-uiad)
   - [Datasets](#datasets)
   - [Methods](#methods-1)
@@ -20,7 +20,7 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 ![roadmap.png](roadmap.png)
 
 ## Methods
-![methods.png](methods.png)
+![paradigms.png](paradigms.png)
 
 # RGB UIAD
 

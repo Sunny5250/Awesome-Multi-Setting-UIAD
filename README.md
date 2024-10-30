@@ -1,5 +1,7 @@
 # Awesome-Multi-Setting-UIAD [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datasets (updating).
+Welcome to follow our papers [**"A Survey on RGB, 3D, and Multimodal Approaches for Unsupervised Industrial Anomaly Detection"**](https://arxiv.org/abs/2410.21982).
+If you find any errors in our survey and resource repository, or if you have any suggestions, please feel free to contact us via email at: olsunnylo@outlook.com
 
 # Contents
 - [Overview](#overview)
@@ -161,3 +163,5 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 | CFM | [**Multimodal Industrial Anomaly Detection by Crossmodal Feature Mapping**](https://openaccess.thecvf.com/content/CVPR2024/html/Costanzino_Multimodal_Industrial_Anomaly_Detection_by_Crossmodal_Feature_Mapping_CVPR_2024_paper.html) <br> | CVPR | 2024 | [Code](https://github.com/CVLAB-Unibo/crossmodal-feature-mapping) | Reconstruction |
 | 3DRÆM | [**Keep DRÆMing: Discriminative 3D anomaly detection through anomaly simulation**](https://www.sciencedirect.com/science/article/pii/S0167865524000862) <br> | PRL | 2024 | - | Reconstruction |
 <!-- | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm | -->
+
+

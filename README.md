@@ -5,7 +5,7 @@ A taxonomy of Unsupervised Industrial Anomaly Detection (UIAD) methods and datas
 Welcome to follow our papers [**"A Survey on RGB, 3D, and Multimodal Approaches for Unsupervised Industrial Anomaly Detection"**](https://arxiv.org/abs/2410.21982).
 
 
-If you find any errors in our survey and resource repository, or if you have any suggestions, please feel free to contact us via email at: olsunnylo@outlook.com
+If you find any errors in our survey and resource repository, or if you have any suggestions, please feel free to contact us via email at: olsunnylo@outlook.com.
 
 # Contents
 - [Overview](#overview)

@@ -173,11 +173,11 @@ If you find any errors in our survey and resource repository, or if you have any
 If you find this paper and repository useful, please cite our paper:
 
 ```
-@inproceedings{Lin2024ASO,
+@article{lin2024survey,
   title={A Survey on RGB, 3D, and Multimodal Approaches for Unsupervised Industrial Anomaly Detection},
-  author={Yuxuan Lin and Yang Chang and Xuan Tong and Jiawen Yu and Antonio Liotta and Guofan Huang and Wei Song and Deyu Zeng and Zongze Wu and Yan Wang and Wenqiang Zhang},
-  year={2024},
-  url={https://api.semanticscholar.org/CorpusID:273662373}
+  author={Lin, Yuxuan and Chang, Yang and Tong, Xuan and Yu, Jiawen and Liotta, Antonio and Huang, Guofan and Song, Wei and Zeng, Deyu and Wu, Zongze and Wang, Yan and Zhang, Wenqiang},
+  journal={arXiv preprint arXiv:2410.21982},
+  year={2024}
 }
 ```
 

@@ -168,4 +168,16 @@ If you find any errors in our survey and resource repository, or if you have any
 | 3DRÆM | [**Keep DRÆMing: Discriminative 3D anomaly detection through anomaly simulation**](https://www.sciencedirect.com/science/article/pii/S0167865524000862) <br> | PRL | 2024 | - | Reconstruction |
 <!-- | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm | -->
 
+# BibTex Citation
+
+If you find this paper and repository useful, please cite our paper:
+
+```
+@inproceedings{Lin2024ASO,
+  title={A Survey on RGB, 3D, and Multimodal Approaches for Unsupervised Industrial Anomaly Detection},
+  author={Yuxuan Lin and Yang Chang and Xuan Tong and Jiawen Yu and Antonio Liotta and Guofan Huang and Wei Song and Deyu Zeng and Zongze Wu and Yan Wang and Wenqiang Zhang},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:273662373}
+}
+```
 

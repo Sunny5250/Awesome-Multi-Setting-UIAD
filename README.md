@@ -146,6 +146,7 @@ If you find any errors in our survey and resource repository, or if you have any
 | [**MVTec 3D-AD**](https://www.scitepress.org/PublicationsDetail.aspx?ID=x2WTZgpY0KM=&t=1) <br> | [data](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad) | 2021 | Real | 2656 | 294 | 948 | 294 | 4147 | 10 | 41 | RGB & Point cloud |
 | [**PD-REAL**](https://arxiv.org/abs/2311.04095) <br> | [data](https://drive.google.com/file/d/1EBapy9BGnwmZJ9Rxh0uTF-Xii9FU0YCG/view?usp=sharing) | 2023 | Real | 2399 | 300 | 530 | 300 | 3529 | 15 | 6 | RGB & Point cloud |
 | [**Eyecandies**](https://openaccess.thecvf.com/content/ACCV2022/html/Bonfiglioli_The_Eyecandies_Dataset_for_Unsupervised_Multimodal_Anomaly_Detection_and_Localization_ACCV_2022_paper.html) <br> | [data](https://eyecan-ai.github.io/eyecandies/download) | 2022 | Synthetic | 10000 | 2250 | 2250 | 1000 | 15500 | 10 | - | RGB & Depth |
+| [**MulSen-AD**](https://zzzbbbzzz.github.io/MulSen_AD/index.html) <br> | - | 2024 | Real | 1391 | 150 | 494 | - | 2035 | 15 | 14 | RGB & Infrared & Point cloud |
 <!-- | [**dataset**](web) <br> | [data](data_web) | - | - | - | - | - | - | - | - | - | - | -->
 
 ## Methods

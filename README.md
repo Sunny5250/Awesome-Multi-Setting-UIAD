@@ -7,6 +7,12 @@ Welcome to follow our papers [**"A Survey on RGB, 3D, and Multimodal Approaches 
 
 If you find any errors in our survey and resource repository, or if you have any suggestions, please feel free to contact us via email at: olsunnylo@outlook.com.
 
+
+## News
+
+* **[2025.03.19]**  🔥🔥 Accepted by **Information Fusion**!
+
+
 # Contents
 - [Overview](#overview)
   - [Roadmap](#roadmap)

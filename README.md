@@ -122,7 +122,9 @@ If you find any errors in our survey and resource repository, or if you have any
 | TransFusion | [**TransFusion – A Transparency-Based Diffusion Model for Anomaly Detection**](https://link.springer.com/chapter/10.1007/978-3-031-72761-0_6) <br> | ECCV | 2024 | [Code](https://github.com/MaticFuc/ECCV_TransFusion) | Diffusion-based Reconstruction |
 | DiAD | [**A Diffusion-Based Framework for Multi-Class Anomaly Detection**](https://ojs.aaai.org/index.php/AAAI/article/view/28690) <br> | AAAI | 2024 | [Code](https://github.com/lewandofskee/DiAD) | Diffusion-based Reconstruction |
 | GLAD | [**GLAD: Towards Better Reconstruction with Global and Local Adaptive Diffusion Models for Unsupervised Anomaly Detection**](https://arxiv.org/abs/2406.07487) <br> | ECCV | 2024 | [Code](https://github.com/hyao1/GLAD) | Diffusion-based Reconstruction |
+| EAR | [**Visual defect obfuscation based self-supervised anomaly detection**](https://www.nature.com/articles/s41598-024-69698-5) <br> | Scientific Reports | 2024 | - | Autoencoder-based Reconstruction |
 | AnomalySD | [**AnomalySD: Few-Shot Multi-Class Anomaly Detection with Stable Diffusion Model**](https://arxiv.org/abs/2408.01960) <br> | - | 2024 | - | Diffusion-based Reconstruction |
+| FADeR | [**Feature Attenuation of Defective Representation Can Resolve Incomplete Masking on Anomaly Detection**](https://arxiv.org/abs/2407.04597) <br> | CVPR 2025 workshop, VAND 3.0 | 2025 | - | Autoencoder-based Reconstruction |
 <!-- | name | [**title**](web) <br> | venue | year | [Code](code_web) | paradigm | -->
 
 # 3D UIAD

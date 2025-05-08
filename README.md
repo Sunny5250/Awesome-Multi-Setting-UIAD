@@ -180,7 +180,7 @@ If you find any errors in our survey and resource repository, or if you have any
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/Sunny5250/Awesome-Multi-Setting-UIAD.svg)](https://starchart.cc/Sunny5250/Awesome-Multi-Setting-UIAD)
+[![Stargazers over time](https://starchart.cc/Sunny5250/Awesome-Multi-Setting-UIAD.svg?variant=adaptive)](https://starchart.cc/Sunny5250/Awesome-Multi-Setting-UIAD)
 
 
 # BibTex Citation
